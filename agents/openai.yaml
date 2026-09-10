@@ -1,0 +1,7 @@
+interface:
+  display_name: "OM Reviewer"
+  short_description: "Review Q1 management and AI manuscripts"
+  default_prompt: "Use $om-reviewer to assess this manuscript and produce a concise journal-ready review."
+
+policy:
+  allow_implicit_invocation: true

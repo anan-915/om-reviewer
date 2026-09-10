@@ -1,0 +1,25 @@
+# Confidential manuscripts and review outputs
+*.pdf
+*.docx
+!assets/review-report-template.docx
+*.review.json
+review*.json
+manuscripts/
+inputs/
+outputs/
+test-output/
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Logs, editors, and operating systems
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
