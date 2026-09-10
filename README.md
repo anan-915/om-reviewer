@@ -80,7 +80,7 @@ Commit that directory only when the skill is intended for every authorized user 
 
 ## Recommended installation with Skill Installer
 
-The Skill Installer downloads public repositories directly and can fall back to Git when necessary. Private repositories require existing Git credentials or an appropriate `GITHUB_TOKEN` or `GH_TOKEN`. The installer does not overwrite an existing destination.
+The Skill Installer downloads public repositories directly and can fall back to Git when necessary. For this root-layout repository, use the manual Git installation described below while the repository is private. This avoids an incomplete sparse checkout of nested skill directories. The installer does not overwrite an existing destination.
 
 Because `SKILL.md` is at this repository's root, the repository path is `.` and the destination name must be `om-reviewer`.
 

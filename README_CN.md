@@ -80,7 +80,7 @@ OpenAI官方文档还将`$HOME/.agents/skills/om-reviewer`列为用户自行管�
 
 ## 使用Skill Installer安装
 
-这是推荐方式。Skill Installer会直接下载公开GitHub仓库，必要时回退到Git。私有仓库需要已有Git凭据，或者适当配置的`GITHUB_TOKEN`或`GH_TOKEN`。安装器不会覆盖已经存在的目标目录。
+公开仓库推荐使用这种方式。Skill Installer会直接下载公开GitHub仓库，必要时回退到Git。本仓库采用skill位于仓库根目录的结构，因此仓库仍为私有状态时，请使用下文的Git手动安装方式，避免稀疏检出遗漏嵌套的skill目录。安装器不会覆盖已经存在的目标目录。
 
 由于本仓库的`SKILL.md`位于仓库根目录，因此仓库内路径为`.`，安装名称必须指定为`om-reviewer`。
 
